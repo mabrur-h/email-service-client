@@ -12,6 +12,21 @@
 .sidebarOption:hover,
 .sidebarOption:hover > p,
 .sidebarOption:hover > h3 {
+    background-color: #f1f1f1;
+    font-weight: 800 !important;
+}
+
+.sidebarOption--active,
+.sidebarOption--active > p,
+.sidebarOption--active > h3 {
+    background-color: #fcecec;
+    color: #c04b37;
+    font-weight: 800 !important;
+}
+
+.sidebarOption--active:hover,
+.sidebarOption--active:hover > p,
+.sidebarOption--active:hover > h3 {
     background-color: #fcecec;
     color: #c04b37;
     font-weight: 800 !important;
@@ -31,6 +46,10 @@
 .sidebarOption > p {
     display: none;
     font-weight: 300;
+}
+
+.sidebarOption--active > p {
+    display: inline !important;
 }
 
 .sidebarOption:hover > p {

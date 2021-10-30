@@ -1,3 +1,9 @@
+.sidebar {
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
 .sidebar__compose {
     margin-top: 15px !important;
     margin-left: 15px !important;
@@ -23,4 +29,9 @@
 
 .sidebar__compose__icon > path {
     visibility: hidden;
+}
+
+.sidebar__footer {
+    display: flex;
+    justify-content: center;
 }

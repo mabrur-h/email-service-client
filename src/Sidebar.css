@@ -1,0 +1,26 @@
+.sidebar__compose {
+    margin-top: 15px !important;
+    margin-left: 15px !important;
+    margin-bottom: 15px !important;
+    text-transform: capitalize !important;
+    color: gray;
+    padding: 15px !important;
+    border-radius: 30px !important;
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar__compose__icon {
+    background-image: url(https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    margin-right: 0px !important;
+    content: '';
+    display: block;
+    height: 40px;
+    min-width: 30px;
+}
+
+.sidebar__compose__icon > path {
+    visibility: hidden;
+}
